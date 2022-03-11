@@ -1,18 +1,20 @@
 
 body {
   margin: 0;
+  background-image: url("../img/sun.jpg");
+  background-repeat: repeat;
 }
 
 h1 {
   text-align: center;
+  margin: 0;
 }
 
 div {
   height: 200px;
   width: 250px;
-  padding-top: 20px;
-  margin: 10px;
-  display: inline-block;
+  /* padding: 200px; */
+  margin: 0;
 }
 
 .div-one {
@@ -24,5 +26,5 @@ div {
 }
 
 .div-three {
-  background-color: yellow;
+  background-color: brown;
 }
